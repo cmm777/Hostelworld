@@ -5,11 +5,10 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import main.java.pageObjects.HomePage;
 import org.apache.commons.math3.util.CombinatoricsUtils;
+import org.json.simple.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import java.util.Random;
-import java.util.random.RandomGeneratorFactory;
 
 public class FactorialTests extends test.java.BaseTest {
 
@@ -28,11 +27,16 @@ public class FactorialTests extends test.java.BaseTest {
         Assert.assertEquals(result, "The factorial of "+num+" is: "+CombinatoricsUtils.factorial(num));
     }
 
-    @Test
+    @org.junit.Test
     public void endpointTestNumber(){
-        RestAssured.baseURI = "http://qainterview.pythonanywhere.com/factorial";
+        Random rand = new Random();
+        int upperbound = 20;
+        int num = rand.nextInt(upperbound);
+        RestAssured.baseURI = "http://qainterview.pythonanywhere.com";
         RequestSpecification request = RestAssured.given();
-        request.post("14");
+        request.header("Host","qainterview.pythonanywhere.com");
+        request.header("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
+        request.body("{\"Key\":\"'number'\" , \"Value\":\"5\"}");
         Response response = request.post("/factorial");
         System.out.println("The status received: " + response.statusLine());
     }

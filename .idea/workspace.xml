@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1a2c1cf-f7c7-4c78-9caf-662e93624a7b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bugs found.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FactorialTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/AutomationReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/AutomationReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bugs found.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/bugs found.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FactorialTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FactorialTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,15 +39,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "Debugger_Data_Views_Java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Debugger_Data_Views_Java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\cmm77\IdeaProjects\Hostelworld\src\test2\java" />
@@ -64,7 +59,23 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FactorialTests.calculateFactorial">
+  <component name="RunManager" selected="JUnit.FactorialTests.endpointTestNumber">
+    <configuration name="FactorialTests.endpointTestNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Hostelworld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java" />
+      <option name="MAIN_CLASS_NAME" value="test.java.FactorialTests" />
+      <option name="METHOD_NAME" value="endpointTestNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FactorialTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Hostelworld" />
       <extension name="coverage">
@@ -76,24 +87,6 @@
       <option name="PACKAGE_NAME" value="test.java" />
       <option name="MAIN_CLASS_NAME" value="test.java.FactorialTests" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FactorialTests.RegistrationSuccessful" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Hostelworld" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.java.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.java" />
-      <option name="MAIN_CLASS_NAME" value="test.java.FactorialTests" />
-      <option name="METHOD_NAME" value="RegistrationSuccessful" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -156,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FactorialTests.calculateFactorial" />
+        <item itemvalue="JUnit.FactorialTests.endpointTestNumber" />
         <item itemvalue="TestNG.FactorialTests.endpointTestNumber" />
+        <item itemvalue="TestNG.FactorialTests.calculateFactorial" />
         <item itemvalue="TestNG.FactorialTests.verifyPageTitle" />
         <item itemvalue="TestNG.FactorialTests" />
-        <item itemvalue="TestNG.FactorialTests.RegistrationSuccessful" />
       </list>
     </recent_temporary>
   </component>
@@ -173,6 +166,21 @@
       <option name="presentableId" value="Default" />
       <updated>1653137045457</updated>
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1653184365783</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653184365783</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First commit">
+      <created>1653184394129</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653184394129</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,22 +188,23 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/FactorialTests.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="org.openqa.selenium.remote.RemoteWebElement" memberName="foundBy" />

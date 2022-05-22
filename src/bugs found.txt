@@ -1,4 +1,4 @@
-#1 - 500 error starting at 900 - No message is displayed
+#1 - 500 error starting at 900 - No message is displayed - The api returns all of the numbers
 #2 - 500 error on -1 and below - No message is displayed
 #3 - Placeholder text is wrong, not all of the integer numbers are accepted, it should say natural numbers
      or provide a range of accepted values

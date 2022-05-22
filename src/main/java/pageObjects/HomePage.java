@@ -1,10 +1,7 @@
 package main.java.pageObjects;
 
-import lombok.SneakyThrows;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-
-import static test.java.BaseTest.logger;
 import static test.java.BaseTest.myDriver;
 
 public class HomePage {
