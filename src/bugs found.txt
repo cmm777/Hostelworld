@@ -1,0 +1,11 @@
+#1 - 500 error starting at 900 - No message is displayed
+#2 - 500 error on -1 and below - No message is displayed
+#3 - Placeholder text is wrong, not all of the integer numbers are accepted, it should say natural numbers
+     or provide a range of accepted values
+#4 - Page title has a typo: "Factoriall" instead of "Factorial"
+#5 - Debug message in the dev tools console "Hello! I am in the done part of the ajax call" informing about
+     ajax being used and possible vulnerabilities
+#6 - There is no limit on the number length that can be introduced in the field
+#7 - User can place zeroes on the left side of the number that will be calculated and those are part of the calculation
+     As a result of #6 and #7, user can place an infinite amount of zeroes before placing a different number which
+     breaks the result message making it extend to the right of the screen
