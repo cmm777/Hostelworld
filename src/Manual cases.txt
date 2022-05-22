@@ -1,0 +1,14 @@
+Test case #1
+Title: Validate the factorial calculation for a number between 0 and 170
+Description: Number 0 is the lower accepted, there is a bug affecting negative numbers. For 171 to 989 the result is "Infinity"
+             Above that value there is another bug affecting larger numbers
+
+Steps:                                                      Expected result:
+1 Navigate to http://qainterview.pythonanywhere.com/        The page is loaded
+2 Enter the number 0 and click calculate                    There is a message displayed that reads: "The factorial of 0 is: 1"
+3 Enter a 1-digit number and click calculate                The results match
+  Validate the result against the Google calculator
+4 Enter a 2-digit number and click calculate                The results match
+  Validate the result against the Google calculator
+5 Enter a 3-digit number and click calculate                The results match
+  Validate the result against the Google calculator

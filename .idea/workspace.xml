@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1a2c1cf-f7c7-4c78-9caf-662e93624a7b" name="Changes" comment="">
+    <list default="true" id="d1a2c1cf-f7c7-4c78-9caf-662e93624a7b" name="Changes" comment="Added bugs found + minor changes">
+      <change afterPath="$PROJECT_DIR$/src/Manual cases.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/AutomationReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/AutomationReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bugs found.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/bugs found.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FactorialTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FactorialTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -180,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653184394129</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added bugs found + minor changes">
+      <created>1653241975998</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653241975998</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,7 +207,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="Added bugs found + minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added bugs found + minor changes" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

@@ -9,3 +9,13 @@
 #7 - User can place zeroes on the left side of the number that will be calculated and those are part of the calculation
      As a result of #6 and #7, user can place an infinite amount of zeroes before placing a different number which
      breaks the result message making it extend to the right of the screen
+
+Bug example:
+
+1 - Navigate to http://qainterview.pythonanywhere.com/
+2 - Paste the following number into the text box:
+00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+3 - Click on calculate
+
+Expected result: The calculation is performed for 0, not for the value entered. The value does not overflow over the right side of the screen
+Observed result: The value overflows over the right side of the screen - Refer to attached image (Bug 1)

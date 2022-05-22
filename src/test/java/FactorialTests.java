@@ -18,7 +18,7 @@ public class FactorialTests extends test.java.BaseTest {
         Assert.assertEquals(pageTitle, "Factorial");
     }
 
-    @Test
+    @Test(description="Manual test case #1")
     public void calculateFactorial(){
         Random rand = new Random();
         int upperbound = 20; //Apparently 20 is the limit for the factorial calculator provided by Apache
