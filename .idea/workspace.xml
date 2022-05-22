@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1a2c1cf-f7c7-4c78-9caf-662e93624a7b" name="Changes" comment="Added bugs found + minor changes">
-      <change afterPath="$PROJECT_DIR$/src/Manual cases.txt" afterDir="false" />
+    <list default="true" id="d1a2c1cf-f7c7-4c78-9caf-662e93624a7b" name="Changes" comment="Added manual test case document + other improvements">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bugs found.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/bugs found.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/AutomationReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/AutomationReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FactorialTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FactorialTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -185,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653241975998</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added manual test case document + other improvements">
+      <created>1653243296970</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653243296970</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,9 +214,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="Added bugs found + minor changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added bugs found + minor changes" />
+    <MESSAGE value="Added manual test case document + other improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added manual test case document + other improvements" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/FactorialTests.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="org.openqa.selenium.remote.RemoteWebElement" memberName="foundBy" />

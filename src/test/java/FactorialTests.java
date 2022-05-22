@@ -1,5 +1,6 @@
 package test.java;
 
+import java.util.*;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
@@ -36,8 +37,16 @@ public class FactorialTests extends test.java.BaseTest {
         RequestSpecification request = RestAssured.given();
         request.header("Host","qainterview.pythonanywhere.com");
         request.header("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
-        request.body("{\"Key\":\"'number'\" , \"Value\":\"5\"}");
+        request.formParam("number", num);
         Response response = request.post("/factorial");
         System.out.println("The status received: " + response.statusLine());
+        String result = response.asString();
+        result = result.trim();
+        result = result.substring(10);
+        result = result.substring(0, result.length() - 1);
+        System.out.println("Factorial calculated for number: "+num);
+        System.out.println("Expected: "+Long.toString(CombinatoricsUtils.factorial(num)));
+        System.out.println("Actual: "+result);
+        Assert.assertEquals(result, Long.toString(CombinatoricsUtils.factorial(num)));
     }
 }
